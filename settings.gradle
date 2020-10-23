@@ -1,0 +1,4 @@
+include ':export_voicetalkback'
+include ':voicetalkback_module'
+include ':app'
+rootProject.name = "VoiceTalkback"
