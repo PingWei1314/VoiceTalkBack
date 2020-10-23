@@ -4,6 +4,14 @@
 
     <application>
         <activity android:name=".rtc.activity.HomeActivity"></activity>
+        <activity android:name=".rtc.activity.SuperRoomActivity"/>
+        <activity android:name=".rtc.activity.VoipP2PActivity"/>
+        <activity android:name=".rtc.activity.VoipP2PRingingActivity"/>
+        <service android:name=".KeepLiveService">
+            <intent-filter>
+                <action android:name="com.starrtc.demo.service.KeepLiveService" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>

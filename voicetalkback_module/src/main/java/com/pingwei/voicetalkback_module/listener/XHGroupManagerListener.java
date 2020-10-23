@@ -1,10 +1,9 @@
 package com.pingwei.voicetalkback_module.listener;
-
-import com.anhangda.lamp.v3.bean.CoreDB;
-import com.anhangda.lamp.v3.bean.HistoryBean;
-import com.anhangda.lamp.v3.bean.MessageBean;
-import com.anhangda.lamp.v3.rtc.AEvent;
-import com.anhangda.lamp.v3.rtc.MLOC;
+import com.pingwei.voicetalkback_module.bean.CoreDB;
+import com.pingwei.voicetalkback_module.bean.HistoryBean;
+import com.pingwei.voicetalkback_module.bean.MessageBean;
+import com.pingwei.voicetalkback_module.rtc.AEvent;
+import com.pingwei.voicetalkback_module.rtc.MLOC;
 import com.starrtc.starrtcsdk.apiInterface.IXHGroupManagerListener;
 import com.starrtc.starrtcsdk.core.im.message.XHIMMessage;
 

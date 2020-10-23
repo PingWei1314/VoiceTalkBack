@@ -1,6 +1,7 @@
 package com.pingwei.voicetalkback_module.listener;
 
-import com.anhangda.lamp.v3.rtc.AEvent;
+
+import com.pingwei.voicetalkback_module.rtc.AEvent;
 import com.starrtc.starrtcsdk.api.XHConstants;
 import com.starrtc.starrtcsdk.apiInterface.IXHLoginManagerListener;
 
