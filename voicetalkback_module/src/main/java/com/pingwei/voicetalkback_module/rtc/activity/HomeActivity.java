@@ -10,6 +10,7 @@ import android.os.Message;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
+import com.pingwei.export_voicetalkback.router.CartRouterTable;
 import com.pingwei.voicetalkback_module.KeepLiveService;
 import com.pingwei.voicetalkback_module.R;
 import com.pingwei.voicetalkback_module.bean.MessageEvent;
@@ -32,7 +33,7 @@ import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 import java.util.ArrayList;
 import java.util.Date;
-@Route(path = "/voice/HomeActivity")
+@Route(path = CartRouterTable.PATH_PAGE_CART)
 public class HomeActivity extends AppCompatActivity {
     private ArrayList<SuperRoomInfo> mDatas=new ArrayList<>();
     private String userid;

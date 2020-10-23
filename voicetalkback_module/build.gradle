@@ -49,5 +49,7 @@ dependencies {
     implementation 'com.github.PingWei1314:CommonLibrary:1.0.3'
     annotationProcessor 'com.github.hufeiyang.Android-AppLifecycleMgr:applifecycle-compiler:1.0.4'
     implementation files('libs/star_rtc_sdk.jar')
+    implementation 'com.github.PingWei1314.VoiceTalkBack:export_voicetalkback:1.0.2'
+
 
 }
